@@ -1,0 +1,615 @@
+.employeeinfo-hrview-child {
+  position: absolute;
+  top: 0;
+  left: 18.75rem;
+  background-color: var(--white);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  width: 71.38rem;
+  height: 5rem;
+}
+.hr-controls {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1.75rem;
+  left: 69.25rem;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+}
+.employeeinfo-hrview-item {
+  position: absolute;
+  top: 60.88rem;
+  left: 18.75rem;
+  background-color: var(--white);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  width: 71.38rem;
+  height: 3.13rem;
+}
+.employee-information4 {
+  position: absolute;
+  top: 0;
+  left: 19.63rem;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-gray-300);
+  display: flex;
+  align-items: center;
+  width: 23.19rem;
+  height: 4.88rem;
+}
+.logout-14 {
+  text-decoration: none;
+  position: absolute;
+  top: 1.88rem;
+  left: 86.56rem;
+  width: 1.31rem;
+  height: 1.31rem;
+  background-image: url(./public/logout-11@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.employeeinfo-hrview-inner {
+  position: absolute;
+  top: 4.88rem;
+  left: 18.81rem;
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 12.44rem;
+  height: 55.88rem;
+}
+.assets4,
+.basic-information,
+.emergency-contact,
+.work-information {
+  position: absolute;
+  left: 20.69rem;
+  display: flex;
+  align-items: center;
+  width: 10.56rem;
+}
+.basic-information {
+  top: 7.13rem;
+  height: 2.75rem;
+}
+.assets4,
+.emergency-contact,
+.work-information {
+  text-decoration: none;
+  color: inherit;
+}
+.work-information {
+  top: 9.31rem;
+  height: 2.75rem;
+  cursor: pointer;
+}
+.assets4,
+.emergency-contact {
+  top: 11.56rem;
+  height: 2.69rem;
+}
+.assets4 {
+  top: 13.56rem;
+  height: 2.75rem;
+}
+/* .frame-icon {
+  position: absolute;
+  top: 11.88rem;
+  left: 87.88rem;
+  border-radius: var(--br-3xs);
+  width: 0.69rem;
+  height: 54.88rem;
+} */
+.logout15 {
+  position: absolute;
+  top: 22.73%;
+  left: 44.27%;
+  font-weight: 500;
+}
+.logout14 {
+  position: absolute;
+  top: 1.13rem;
+  left: 77.56rem;
+  width: 8.19rem;
+  height: 2.75rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+}
+.copyright-wrapper5,
+.frame-parent4,
+.sub-menu-wrapper5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyright-wrapper5 {
+  padding: var(--padding-3xs);
+  text-align: right;
+}
+.frame-parent4 {
+  position: absolute;
+  top: 0.44rem;
+  left: 0.5rem;
+  gap: var(--gap-278xl);
+}
+.footer26 {
+  position: absolute;
+  top: 61.06rem;
+  left: 18.81rem;
+  width: 71.38rem;
+  height: 2.94rem;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+}
+.rectangle-input {
+  border: 0;
+  text-align: center;
+  background-color: var(--color-whitesmoke-200);
+  position: absolute;
+  top: 6.63rem;
+  left: 43.31rem;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.25);
+  width: 22.19rem;
+  height: 2.5rem;
+}
+.search-1-icon {
+  position: absolute;
+  top: 6.88rem;
+  left: 43.75rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  opacity: 0.66;
+}
+.frame-child6 {
+  position: relative;
+  background-color: var(--white);
+  border-top: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  width: 15.44rem;
+  height: 0;
+  flex-shrink: 0;
+}
+.employeeinfo-hrview-inner1 {
+  position: absolute;
+  top: 7.88rem;
+  left: 46.06rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.close-1-icon {
+position: absolute;
+top: 7.1rem;
+left: 67rem;
+width: 5rem;
+height: 2rem;
+object-fit: cover;
+opacity: 0.8;
+}
+.search-employee {
+  position: absolute;
+  top: 6.81rem;
+  left: 46.13rem;
+  font-size: var(--font-size-smi);
+  line-height: 3.13rem;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.13rem;
+  height: 2.13rem;
+  text-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0.66;
+}
+.employeeinfo-hrview-child2 {
+  position: absolute;
+  top: 24.63rem;
+  left: 32.63rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 54.63rem;
+  height: 14.81rem;
+}
+.basic-information1 {
+  position: absolute;
+  top: 25.56rem;
+  left: 33.88rem;
+  font-weight: 600;
+}
+.user-2-1 {
+  position: absolute;
+  top: 28.06rem;
+  left: 34.75rem;
+  width: 8.31rem;
+  height: 8.19rem;
+  object-fit: cover;
+  opacity: 0.66;
+}
+.name1,
+.user {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 12.19rem;
+}
+.name1 {
+  top: 0.19rem;
+  left: 0;
+  height: 1.44rem;
+}
+.user {
+  top: 0;
+  left: 11.25rem;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-black);
+  height: 1.75rem;
+}
+.name-group {
+  position: relative;
+  width: 23.44rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+}
+.primary-contact-no,
+.xxxxxxxxxx8 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 12.19rem;
+}
+.primary-contact-no {
+  top: 0;
+  left: 0;
+  height: 1.44rem;
+}
+.xxxxxxxxxx8 {
+  top: 0.06rem;
+  left: 11.25rem;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-black);
+  height: 1.75rem;
+}
+.primary-contact-no-parent {
+  position: relative;
+  width: 23.44rem;
+  height: 1.81rem;
+  flex-shrink: 0;
+}
+.div148 {
+  position: absolute;
+  top: 0.06rem;
+  left: 11.25rem;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-black);
+}
+.extension-parent {
+  position: relative;
+  width: 12.44rem;
+  height: 1.44rem;
+  flex-shrink: 0;
+}
+.frame-parent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.location {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 12.19rem;
+  height: 1.44rem;
+}
+.location-parent {
+  position: relative;
+  width: 23.44rem;
+  height: 1.94rem;
+  flex-shrink: 0;
+}
+.frame-parent5 {
+  position: absolute;
+  top: 26.81rem;
+  left: 49.56rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+}
+.employeeinfo-hrview-child3 {
+  position: absolute;
+  top: 46.81rem;
+  left: 46.63rem;
+  background-color: var(--color-whitesmoke-200);
+  width: 24.44rem;
+  height: 9.63rem;
+}
+.any-extra-info {
+  position: absolute;
+  top: 49.5rem;
+  left: 47.44rem;
+  font-weight: 500;
+}
+.qtq-95-1-icon7 {
+  position: relative;
+  width: 16.63rem;
+  height: 6.06rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hi-user-button-child2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-whitesmoke-200);
+  position: absolute;
+  top: 0.63rem;
+  left: 0.63rem;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  border-left: 12px solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 15.63rem;
+  height: 3.94rem;
+}
+.hi-user6,
+.view-my-info6 {
+  position: absolute;
+  font-family: var(--font-montserrat);
+  text-align: left;
+  display: inline-block;
+}
+.view-my-info6 {
+  text-decoration: underline;
+  top: 2.81rem;
+  left: 4.75rem;
+  font-size: var(--font-size-smi);
+  font-weight: 300;
+  color: var(--color-blue-100);
+  width: 6.06rem;
+  height: 0.63rem;
+}
+.hi-user6 {
+  top: 1.19rem;
+  left: 4.63rem;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+  width: 9.06rem;
+  height: 1.44rem;
+}
+.setting-1-icon6,
+.user-1-16 {
+  position: absolute;
+  top: 1.69rem;
+  left: 13.69rem;
+  width: 1.56rem;
+  height: 1.56rem;
+  object-fit: cover;
+}
+.user-1-16 {
+  left: 1.81rem;
+  width: 2rem;
+  height: 2rem;
+}
+.hi-user-button5,
+.home-icon6 {
+  position: relative;
+  width: 16.25rem;
+  height: 4.56rem;
+  flex-shrink: 0;
+}
+.home-icon6 {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.home-button5,
+.home8 {
+  display: flex;
+  align-items: center;
+}
+.home8 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  width: 3.56rem;
+  height: 1.44rem;
+  flex-shrink: 0;
+}
+.home-button5 {
+  text-decoration: none;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  width: 15.63rem;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.salary-payroll6 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 9.25rem;
+  height: 1.38rem;
+  flex-shrink: 0;
+}
+.salary-and-payroll-button5 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  width: 15.69rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.recruitment6 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 7.38rem;
+  height: 1.44rem;
+  flex-shrink: 0;
+}
+.recruitment-button5 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  width: 15.63rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.attendance6,
+.benefits6,
+.learning6,
+.performance6,
+.rules6,
+.wellness6 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 7.56rem;
+  height: 1.44rem;
+  flex-shrink: 0;
+}
+.attendance6,
+.benefits6,
+.learning6,
+.rules6,
+.wellness6 {
+  width: 4.88rem;
+}
+.attendance6,
+.learning6,
+.rules6,
+.wellness6 {
+  width: 6.81rem;
+}
+.learning6,
+.rules6,
+.wellness6 {
+  width: 5.19rem;
+}
+.rules6,
+.wellness6 {
+  width: 5.25rem;
+  height: 1.38rem;
+}
+.rules6 {
+  width: 3.25rem;
+  height: 1.44rem;
+}
+.employeeinfo-hrview,
+.left-nav-bar5 {
+  background-color: var(--white);
+  overflow: hidden;
+}
+.left-nav-bar5 {
+  position: absolute;
+  top: -0.06rem;
+  left: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  width: 18.75rem;
+  height: 64.06rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-sm);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.employeeinfo-hrview {
+  position: relative;
+  width: 100%;
+  height: 64rem;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+
+/* View more button */
+.view-more-button
+{
+cursor: pointer;
+border: 0;
+padding: 0;
+background-color: transparent;
+position: absolute;
+width: 149px;
+height: 20px;
+left: 1247px;
+top: 661px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #8b8a8a
+}
+a{
+  text-decoration: none;
+  color: var(--color-darkslategray-100);
+} 

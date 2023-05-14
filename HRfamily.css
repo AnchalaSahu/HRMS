@@ -1,0 +1,647 @@
+.familyemployeeinfo-child,
+.familyemployeeinfo-item {
+  position: absolute;
+  left: 18.75rem;
+  background-color: var(--white);
+  border: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  width: 71.38rem;
+}
+.familyemployeeinfo-child {
+  top: 0;
+  height: 5rem;
+}
+.familyemployeeinfo-item {
+  top: 60.88rem;
+  height: 3.13rem;
+}
+.employee-information2 {
+  position: absolute;
+  top: 0;
+  left: 19.63rem;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-gray-300);
+  display: flex;
+  align-items: center;
+  width: 23.19rem;
+  height: 4.88rem;
+}
+.logout-12 {
+  text-decoration: none;
+  position: absolute;
+  top: 1.88rem;
+  left: 86.56rem;
+  width: 1.31rem;
+  height: 1.31rem;
+  background-image: url(./public/logout-11@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.familyemployeeinfo-inner {
+  position: absolute;
+  top: 5rem;
+  left: 18.81rem;
+  background-color: var(--color-whitesmoke-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 12.44rem;
+  height: 55.88rem;
+}
+.personal2 {
+  text-decoration: none;
+  top: 7.13rem;
+  height: 2.75rem;
+}
+.accounts2,
+.assets2,
+.employment-job2,
+.family2,
+.personal2 {
+  position: absolute;
+  left: 20.69rem;
+  display: flex;
+  color: var(--color-black);
+  align-items: center;
+  width: 10.56rem;
+}
+.accounts2 {
+  text-decoration: none;
+  top: 9.31rem;
+  height: 2.75rem;
+}
+.assets2,
+.employment-job2,
+.family2 {
+  top: 11.56rem;
+  height: 2.69rem;
+}
+.assets2,
+.employment-job2 {
+  text-decoration: none;
+  top: 13.75rem;
+  height: 2.75rem;
+}
+.assets2 {
+  top: 15.94rem;
+}
+.familyemployeeinfo-child1,
+.familyemployeeinfo-child2 {
+  position: absolute;
+  top: 9.5rem;
+  left: 32.63rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 54.63rem;
+  height: 14.81rem;
+}
+.familyemployeeinfo-child2 {
+  top: 25.06rem;
+}
+.parent-details {
+  position: absolute;
+  top: 10.06rem;
+  left: 33.88rem;
+  color: var(--color-black);
+  width: 10.38rem;
+  height: 2.63rem;
+}
+.mothers-name,
+.parent-details,
+.spouse-details {
+  display: flex;
+  align-items: center;
+}
+.spouse-details {
+  position: absolute;
+  top: 25.88rem;
+  left: 33.88rem;
+  color: var(--color-black);
+  width: 10.38rem;
+  height: 2.63rem;
+}
+.mothers-name {
+  top: 0;
+  left: 0;
+  height: 1.44rem;
+}
+.mothers-name,
+.mothers-name-parent,
+.xxxxxx {
+  position: absolute;
+  width: 12.19rem;
+}
+.mothers-name-parent {
+  top: 18.31rem;
+  left: 35.69rem;
+  height: 3.19rem;
+  font-size: var(--font-size-sm);
+}
+.xxxxxx {
+  top: 1.44rem;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  height: 1.75rem;
+  z-index: 10;
+}
+.date-of-birth-parent,
+.name-parent {
+  position: absolute;
+  top: 29.31rem;
+  left: 49.56rem;
+  width: 12.19rem;
+  height: 3.19rem;
+  font-size: var(--font-size-sm);
+}
+.name-parent {
+  left: 35.69rem;
+}
+.xxxxxxxxxx,
+.xxxxxxxxxx-wrapper {
+  position: absolute;
+  width: 12.19rem;
+  height: 1.75rem;
+}
+.xxxxxxxxxx {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.xxxxxxxxxx-wrapper {
+  top: 35.75rem;
+  left: 49.56rem;
+  color: var(--color-black);
+}
+.occupation-parent {
+  position: absolute;
+  top: 34.31rem;
+  left: 35.69rem;
+  width: 12.19rem;
+  height: 3.19rem;
+  font-size: var(--font-size-sm);
+}
+.fathers-contact-no-parent,
+.fathers-dob-parent,
+.mothers-contact-no-parent,
+.mothers-dob-parent {
+  position: absolute;
+  top: 13rem;
+  left: 49.56rem;
+  width: 12.19rem;
+  height: 3.19rem;
+  font-size: var(--font-size-sm);
+}
+.fathers-contact-no-parent,
+.mothers-contact-no-parent,
+.mothers-dob-parent {
+  top: 18.31rem;
+}
+.fathers-contact-no-parent,
+.mothers-contact-no-parent {
+  left: 63.44rem;
+}
+.fathers-contact-no-parent {
+  top: 13rem;
+}
+.contact-no {
+  top: 0;
+  left: 13.88rem;
+  height: 1.44rem;
+}
+.contact-no,
+.place-of-birth,
+.xxxxxxxxxx2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 12.19rem;
+}
+.place-of-birth {
+  top: 5rem;
+  left: 0;
+  height: 1.44rem;
+}
+.xxxxxxxxxx2 {
+  top: 1.44rem;
+  left: 13.88rem;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-black);
+  height: 1.75rem;
+}
+.contact-email-parent,
+.contact-no-parent,
+.fathers-name-parent {
+  position: absolute;
+  top: 29.31rem;
+  left: 49.56rem;
+  width: 26.06rem;
+  height: 6.44rem;
+  font-size: var(--font-size-sm);
+  
+}
+.contact-email-parent,
+.fathers-name-parent {
+  top: 34.31rem;
+  left: 63.44rem;
+  width: 12.19rem;
+  height: 3.19rem;
+}
+.fathers-name-parent {
+  top: 13rem;
+  left: 35.69rem;
+}
+.editing-1-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.editing-1,
+.editing-2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 10.13rem;
+  left: 84.69rem;
+  width: 2rem;
+  height: 2rem;
+  opacity: 0.66;
+}
+.editing-2 {
+  top: 25.5rem;
+}
+.group-child16,
+.group-child17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 0.69rem;
+}
+.group-child16 {
+  background-color: var(--color-whitesmoke-300);
+  height: 54.88rem;
+}
+.group-child17 {
+  height: 30.31rem;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 5.63rem;
+  left: 88.63rem;
+  width: 0.69rem;
+  height: 54.88rem;
+}
+.logout11 {
+  position: absolute;
+  top: 22.73%;
+  left: 44.27%;
+  font-weight: 500;
+}
+.logout10 {
+  position: absolute;
+  top: 1.13rem;
+  left: 77.56rem;
+  width: 8.19rem;
+  height: 2.75rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+}
+.copyright-wrapper3,
+.frame-parent2,
+.sub-menu-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.copyright-wrapper3 {
+  padding: var(--padding-3xs);
+  text-align: right;
+}
+.frame-parent2 {
+  position: absolute;
+  top: 0.44rem;
+  left: 0.5rem;
+  gap: var(--gap-278xl);
+}
+.footer24 {
+  position: absolute;
+  top: 60.88rem;
+  left: 18.75rem;
+  width: 71.38rem;
+  height: 2.94rem;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+}
+.qtq-95-1-icon5 {
+  position: relative;
+  width: 16.63rem;
+  height: 6.06rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-whitesmoke-200);
+  position: absolute;
+  top: 0.63rem;
+  left: 0.63rem;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  border-left: 12px solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 15.63rem;
+  height: 3.94rem;
+}
+.hi-user4,
+.view-my-info4 {
+  position: absolute;
+  font-family: var(--font-montserrat);
+  text-align: left;
+  display: inline-block;
+}
+.view-my-info4 {
+  text-decoration: underline;
+  top: 2.81rem;
+  left: 4.75rem;
+  font-size: var(--font-size-smi);
+  font-weight: 300;
+  color: var(--color-blue-100);
+  width: 6.06rem;
+  height: 0.63rem;
+}
+.hi-user4 {
+  top: 1.19rem;
+  left: 4.63rem;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+  width: 9.06rem;
+  height: 1.44rem;
+}
+.setting-1-icon4,
+.user-1-14 {
+  position: absolute;
+  top: 1.69rem;
+  left: 13.69rem;
+  width: 1.56rem;
+  height: 1.56rem;
+  object-fit: cover;
+}
+.user-1-14 {
+  left: 1.81rem;
+  width: 2rem;
+  height: 2rem;
+}
+.hi-user-button3,
+.home-icon4 {
+  position: relative;
+  width: 16.25rem;
+  height: 4.56rem;
+  flex-shrink: 0;
+}
+.home-icon4 {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.home-button3,
+.home6 {
+  display: flex;
+  align-items: center;
+}
+.home6 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  width: 3.56rem;
+  height: 1.44rem;
+  flex-shrink: 0;
+}
+.home-button3 {
+  text-decoration: none;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  width: 15.63rem;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.salary-payroll4 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 9.25rem;
+  height: 1.38rem;
+  flex-shrink: 0;
+}
+.salary-and-payroll-button3 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  width: 15.69rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.recruitment4 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 7.38rem;
+  height: 1.44rem;
+  flex-shrink: 0;
+}
+.recruitment-button3 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-200);
+  box-shadow: 0 4px 4px rgba(184, 184, 184, 0.25);
+  width: 15.63rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.attendance4,
+.benefits4,
+.learning4,
+.performance4,
+.rules4,
+.wellness4 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 7.56rem;
+  height: 1.44rem;
+  flex-shrink: 0;
+}
+.attendance4,
+.benefits4,
+.learning4,
+.rules4,
+.wellness4 {
+  width: 4.88rem;
+}
+.attendance4,
+.learning4,
+.rules4,
+.wellness4 {
+  width: 6.81rem;
+}
+.learning4,
+.rules4,
+.wellness4 {
+  width: 5.19rem;
+}
+.rules4,
+.wellness4 {
+  width: 5.25rem;
+  height: 1.38rem;
+}
+.rules4 {
+  width: 3.25rem;
+  height: 1.44rem;
+}
+.familyemployeeinfo,
+.left-nav-bar3 {
+  background-color: var(--white);
+  overflow: hidden;
+}
+.left-nav-bar3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  width: 18.75rem;
+  height: 64.06rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-sm);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.familyemployeeinfo {
+  position: relative;
+  width: 100%;
+  height: 64rem;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+  font-family: var(--font-montserrat);
+}
+
+
+/* Save button */
+.save
+{
+width: 39px;
+height: 17px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.save-button
+{
+  cursor: pointer;
+  border: 0;
+  padding: 0.31rem var(--padding-13xl);
+  background-color: var(--color-lightskyblue);
+  position: absolute;
+  border-radius: var(--br-8xs);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 103px;
+  height: 27px;
+  left: 1289px;
+  top: 655px;
+}
+
+.hr-controls1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1.75rem;
+  left: 69.25rem;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-500);
+  text-align: left;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  color: var(--color-darkslategray-100);
+} 

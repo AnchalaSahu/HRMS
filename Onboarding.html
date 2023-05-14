@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./onboarding-h-r-view.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,500&display=swap"
+    />
+    <script src="./onboarding.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="onboarding-hrview">
+        <div class="onboarding-hrview-child"></div>
+        <button class="hr-controls"> <a href="./hrsearch.jsp">HR Controls</a></button>
+        <div class="onboarding-hrview-item"></div>
+        <div class="onboarding">Onboarding</div>
+        <a class="logout-1" href="./HRLogoutServlet"></a>
+        <div class="onboarding-hrview-inner" id="sub-menu-container"></div>
+        <a class="generate-employee-id">Generate Employee ID </a
+        ><a class="enlist-new-team" href="" id="enlistNewTeam"
+          >Enlist new team player</a
+        ><a class="access-and-security">Access and Security </a
+        ><a class="assets-suites">Assets suites</a>
+        <div class="logout2"><div class="logout3">Logout</div></div> 
+        <div class="footer21">
+          <div class="frame-group">
+            <div class="sub-menu-container">
+              <div class="sub-menu1">
+                Terms & Conditions | Privacy Policy | Accessibility | Legal |
+              </div>
+            </div>
+            <div class="copyright-container">
+              <div class="sub-menu1">
+                Copyright © 2023 Zcientia Labs - All Rights Reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="onboarding-hrview-child1"></div>
+        <p class="enlisting-a-new">Enlisting a new Employee</p>
+        <img class="user-2-1" alt="" src="./public/user-2-1@2x.png" />
+        <nav class="left-nav-bar1" id="nab-bar">
+          <img class="qtq-95-1-icon1" alt="" src="./public/qtq-95-12@2x.png" />
+          <div class="hi-user-button1">
+            <a class="view-my-info1" href="./HRpersonal.html">View my info</a>
+            <div class="hi-user1">Hi User</div>
+            <img
+              class="setting-1-icon1"
+              alt=""
+              src="./public/setting-11@2x.png"
+            /><img class="user-1-11" alt="" src="./public/user-1-11@2x.png" />
+          </div>
+          <a class="home-button1" href="./HRdashboard.html"
+            ><img class="home-icon1" alt="" src="./public/home1@2x.png" />
+            <div class="home2">Home</div></a
+          >
+          <div class="salary-and-payroll-button1">
+            <img class="home-icon1" alt="" src="./public/salary2@2x.png" />
+            <div class="salary-payroll1">Salary & Payroll</div>
+          </div>
+          <div class="recruitment-button1">
+            <img class="home-icon1" alt="" src="./public/research1@2x.png" />
+            <div class="recruitment1">Recruitment</div>
+          </div>
+          <div class="recruitment-button1">
+            <img class="home-icon1" alt="" src="./public/performance1@2x.png" />
+            <div class="performance1">Performance</div>
+          </div>
+          <div class="recruitment-button1">
+            <img class="home-icon1" alt="" src="./public/incentive1@2x.png" />
+            <div class="benefits1">Benefits</div>
+          </div>
+          <div class="recruitment-button1">
+            <img class="home-icon1" alt="" src="./public/calendar1@2x.png" />
+            <div class="attendance1">Attendance</div>
+          </div>
+          <div class="onboarding-button">
+            <img
+              class="onboarding-1-icon"
+              alt=""
+              src="./public/onboarding.png"
+            />
+            <div class="onboarding1">Onboarding</div>
+          </div>
+          <div class="recruitment-button1">
+            <img class="home-icon1" alt="" src="./public/healthcare1@2x.png" />
+            <div class="wellness1">Wellness</div>
+          </div>
+          <button class="rules-button1">
+            <img class="home-icon1" alt="" src="./public/rules1@2x.png" />
+            <div class="rules1">Rules</div>
+          </button>
+        </nav>
+        <p class="new-hire-orientation">New Hire Orientation</p>
+      </div>
+
+      <form method="post" action="onboarding">
+        <div class="frame-container">
+          <div class="name-parent" class="frame-container">
+            <b class="name">Name</b>
+          </div>
+          <div class="user">
+            <label id="user1">User</label>
+            <input
+              type="hidden"
+              id="user@1"
+              name="user@1"
+              class="input-z-index"
+            />
+          </div>
+          <div class="designation-parent">
+            <b class="designation">Designation</b>
+            <div class="user">
+              <label id="Sde-1">SDE001</label>
+              <input
+                type="hidden"
+                id="sde-1"
+                name="sde-1"
+                class="input-z-index"
+              />
+            </div>
+          </div>
+          <div class="primary-contact-no-parent">
+            <b class="designation">Employee ID</b>
+            <div class="xxxxxxxxxx">
+              <label id="Emp-1">Emp001</label>
+              <input
+                type="hidden"
+                id="emp@1"
+                name="emp@1"
+                class="input-z-index"
+              />
+            </div>
+          </div>
+          <div class="name-parent">
+            <b class="contact-email">Contact Email</b>
+            <div class="xxxxxxxxxxxx">
+              <label id="Email-1">XXXX@XXXXX.com</label>
+              <input
+                type="hidden"
+                id="email-1"
+                name="email-1"
+                class="input-z-index"
+              />
+            </div>
+          </div>
+          <div class="primary-contact-no-parent">
+            <b class="designation">Primary Contact No.</b>
+            <div class="xxxxxxxxxx">
+              <label id="primarycontact-1">XXXXXXXXXX</label>
+              <input
+                type="hidden"
+                id="primarycontact"
+                name="primarycontact"
+                class="input-z-index"
+              />
+            </div>
+          </div>
+        </div>
+        <button class="enlist-button">
+          <div class="enlist-employee">ENLIST EMPLOYEE</div>
+        </button>
+      </form>
+      <button class="editing-1" onclick="editbutton();">
+        <img class="editing-1-icon" alt="" src="./public/editing-1@2x.png" />
+      </button>
+      <!-- bulk sample -->
+      <button id="uploadLink" class="bulk-data-upload">Bulk Data Upload</button>
+      <div id="uploadModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Upload File</h2>
+          <label for="file" class="bulk-opt">Select file to upload:&nbsp</label>
+          <input type="file"  accept=".csv" id="file" name="file" required class="bulk-opt" />
+          <button id="bulk-upload-btn" class="bulk-opt">Upload</button>
+          <!-- <form id="uploadForm" method="post"  >
+          </form> -->
+        </div>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
+</html>
